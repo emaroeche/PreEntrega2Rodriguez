@@ -1,0 +1,13 @@
+@mixin box-text ($font, $width, $box-sizing, $border){
+    font: $font;
+    width:$width;
+    box-sizing:$box-sizing;
+    border: $border;
+}
+@mixin text ($display, $flex-flow, $justify-content, $padding, $font-size,){
+    display: $display;
+    flex-flow: $flex-flow;
+    justify-content: $justify-content;
+    padding: $padding;
+    font-size: $font-size;
+}
