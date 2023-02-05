@@ -14,17 +14,25 @@ body {
   background-color: #033a35;
   overflow-x: hidden;
 }
+/* header de toda la pagina web*/
 
 header nav {
   background-color: white;
-  margin: 20px 20px 0px 20px;
+  margin-top: 15px;
+  width: 100%;
+}
+header div img {
+  width: 80px;
+  height: 80px;
+}
+header div button {
+  justify-content: right;
 }
 header div ul li {
   display: inline-flex;
-  margin: 2px 160px 1px 2px;
-  font-size: 20px;
+  font-size: 25px;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 header div ul li a {
   font-family: "Roboto Mono", monospace;
@@ -35,14 +43,28 @@ header div ul li a:hover {
   color: white;
   background-color: #033a35;
 }
-header div ul li a img {
-  width: 80px;
-  height: 80px;
-}
+/*main de toda la web*/
 
 main {
   color: white;
 }
+
+.prod {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.container-fluid {
+  text-align: center;
+  display: inline-flex;
+  justify-items: center;
+}
+
+.row {
+  justify-items: center;
+}
+/* main del index*/
+
 main section h1 {
   display: flex;
   flex-flow: row wrap;
@@ -68,6 +90,11 @@ main div iframe {
   height: 100%;
   padding: 15px;
 }
+.scale-in-center {
+  -webkit-animation: scale-in-center 2s;
+  animation: scale-in-center 2s;
+}
+/*main seccion bebidas y comestibles, plateria y talabarteria*/
 main h2 {
   display: flex;
   flex-flow: row wrap;
@@ -75,6 +102,24 @@ main h2 {
   padding: 10px;
   font-size: 40px;
 }
+.imag {
+  width: 300px;
+  height: 300px;
+  margin: 15px 1px 15px 1px;
+  justify-content: center;
+}
+.imag:hover {
+  transform: scale(1.2);
+}
+
+.nomimg {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*main seccion nosotros*/
+
 main p {
   color: white;
   font-size: 25px;
@@ -89,6 +134,9 @@ main div p {
   font-size: 25px;
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+/*main seccion contactos*/
+
 main form {
   margin: 0 auto 50px;
   display: flex;
@@ -117,25 +165,39 @@ main form ul li + li {
   margin-top: 20px;
 }
 
-.imag {
-  width: 300px;
-  height: 300px;
-  margin: 15px 1px 15px 1px;
+
+
+
+/*footer de todas las secciones de la web*/
+
+footer {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
-.imag:hover {
-  transform: scale(1.2);
+footer div img {
+  width: 80px;
+  height: 80px;
 }
 
-.nomimg {
-  margin: 0;
-  text-align: center;
-  font-size: 18px;
-}
+/*responsive*/
 
-.scale-in-center {
-  -webkit-animation: scale-in-center 2s;
-  animation: scale-in-center 2s;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }
 
 @-webkit-keyframes scale-in-center {
@@ -160,49 +222,6 @@ main form ul li + li {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
-  }
-}
-.container-fluid {
-  text-align: center;
-  display: inline-flex;
-  justify-items: center;
-}
-
-.row {
-  justify-items: center;
-}
-
-.prod {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-footer {
-  color: white;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-footer div img {
-  width: 80px;
-  height: 80px;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 60px;
-  }
-  h3 {
-    font-size: 35px;
-  }
-}
-@media (max-width: 576px) {
-  h1 {
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 20px;
   }
 }
 

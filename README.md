@@ -1,7 +1,24 @@
-Este proyecto fue creado por Emanuel Rodriguez, estudiante del curso de Desarrollo Web de CoderHouse.
+# La Salada - Solis de Mataojo
+![](https://lasaladasolisdemataojo.000webhostapp.com/assent/image/logos/logo-la-salada.png)
 
-Es una pagina web en proceso orientada a ser una tienda online.
+###Autor
+Emanuel Rodriguez
 
-Actualmente es estatica ya que no posee interaccion con el usuario, proximamente se actualizara cuando desarrolle las habilidades en Java Script.
+###Repositorio
+Proyecto final del curso Desarrollo Web, de Coderhouse.
 
-En un principio se le sumara movimiento permitiendo al ususario poder comprar y al dueño del negocio poder manejar stocks y agregar productos.
+###Consigna
+Esta es una pagina web en proceso, estilo e-commerce.
+
+Actualmente es una pagina estatica a la que se le pretende agregar Java Script y Back-end.
+
+###Tecnoligias utilizadas
+
+![](https://www.globalwireonline.org/wp-content/uploads/2014/05/html5-css3.png)
+
+###Colores utilizados
+.#033a35
+.white
+.grey
+
+###-End-
